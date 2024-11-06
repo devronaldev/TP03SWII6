@@ -18,7 +18,7 @@ namespace TP03SWII6.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Creditos()
         {
             return View();
         }

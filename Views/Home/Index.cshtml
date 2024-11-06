@@ -1,8 +1,87 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Página Inicial";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>@ViewData["Title"]</title>
+    <!-- Link do Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Estilos personalizados */
+        body {
+            background-color: #f3f4f6; /* Cinza suave */
+            color: #333;
+        }
+
+        .display-4 {
+            color: #6f42c1; /* Roxo */
+            font-weight: 700;
+            transition: color 0.3s ease;
+        }
+
+        .display-4:hover {
+            color: #5a0e8b; /* Escurece o roxo no hover */
+        }
+
+        .name-highlight {
+            display: inline-block;
+            font-weight: bold;
+            padding: 6px 12px;
+            border-radius: 8px;
+            color: white;
+            background-color: #6f42c1; /* Roxo escuro */
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+        }
+
+        .name-highlight:hover {
+            transform: scale(1.1); /* Aumenta um pouco o nome ao passar o mouse */
+        }
+
+        .link-info a {
+            color: #5a0e8b; /* Roxo */
+            font-weight: bold;
+            text-decoration: underline;
+            transition: color 0.3s ease, transform 0.3s ease;
+        }
+
+        .link-info a:hover {
+            color: #3e2364; /* Roxo mais escuro */
+            transform: scale(1.05); /* Suavemente aumenta o link ao passar o mouse */
+        }
+
+        /* Ajuste de espaçamento e alinhamento */
+        .content-wrapper {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .intro-text {
+            max-width: 600px;
+            font-size: 1.1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container content-wrapper">
+        <h1 class="display-4 text-center">
+            Seja Bem-Vindo, <span class="name-highlight">Professor Wellington Tuler!</span>
+        </h1>
+
+        <p class="link-info text-center mt-4 intro-text">
+            Leia sobre a proposta da atividade <a href="https://github.com/devronaldev/TP03SWII6/SWII6_TP03.pdf">clicando aqui</a>.
+        </p>
+    </div>
+
+    <!-- Scripts do Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
