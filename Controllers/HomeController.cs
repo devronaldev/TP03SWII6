@@ -2,6 +2,11 @@ using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using TP03SWII6.Models;
 
+/*
+CB3011836 - Ketheleen Cristine Simão dos Santos
+CB3020282 - Ronald Pereira Evangelista
+*/
+
 namespace TP03SWII6.Controllers
 {
     public class HomeController : Controller

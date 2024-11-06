@@ -1,6 +1,11 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
+/*
+CB3011836 - Ketheleen Cristine Simão dos Santos
+CB3020282 - Ronald Pereira Evangelista
+*/
+
 namespace TP03SWII6.Models
 {
     [Table("produto")]

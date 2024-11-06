@@ -2,6 +2,11 @@ using TP03SWII6;
 using Microsoft.EntityFrameworkCore;
 using DotNetEnv;
 
+/*
+CB3011836 - Ketheleen Cristine Simão dos Santos
+CB3020282 - Ronald Pereira Evangelista
+*/
+
 var builder = WebApplication.CreateBuilder(args);
 
 Env.Load();

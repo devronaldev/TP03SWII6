@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using TP03SWII6;
 using TP03SWII6.Models;
+
+/*
+CB3011836 - Ketheleen Cristine Simão dos Santos
+CB3020282 - Ronald Pereira Evangelista
+*/
 
 namespace TP03SWII6.Controllers
 {
